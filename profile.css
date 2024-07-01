@@ -1,0 +1,101 @@
+body {
+  background-color: rgba(32, 32, 32, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.profile-settings-container {
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  width: 100%;
+  /* height: 100vh; */
+  padding: 20%;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: aliceblue;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+.save {
+  width: 20%;
+  padding: 10px;
+  background-color: #62dbbe;
+  border: none;
+  border-radius: 3px;
+  color: aliceblue;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(98, 219, 190, 0.8);
+}
+
+.image-settings {
+  display: flex;
+  gap: 12px;
+}
+
+.profile-actions {
+  display: flex;
+  gap: 6px;
+  align-items: end;
+  width: auto;
+}
+
+.new-name-input,
+.new-password-input,
+.current-password-input {
+  width: 95%;
+  padding: 10px 5%;
+  padding-right: 0;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+
+
+label {
+  color: #848282;
+  text-align: left;
+}
+
+form {
+  text-align: left;
+}
+
+
+#pass-criteria {
+  display: none;
+  list-style-type: none;
+
+  text-align: center;
+  font-size: small;
+}
+
+.imgcontiner{
+  width: 200px;
+}
+
+.user-img{
+  width: 200px;
+}
+
